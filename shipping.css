@@ -1,0 +1,121 @@
+header, footer{
+    background-color: black;
+}
+
+.nav__link{
+    margin-left: 30px;
+    color: white;
+    text-align: justify;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+.nav__link:hover{
+    color: white;
+    cursor: pointer;
+}
+.nav__home{
+/*    left: 0;
+    position: absolute;*/
+}
+.top__notification{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.countries{
+/*    height: 100px;*/
+
+
+    color: black;
+    border-radius: 10px;
+
+}
+ul{
+    text-align: left;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.footer__nav__aboutUs a:last-of-type{
+    color: white;
+}
+.countries__item{
+    padding-top: 15px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    background-color: yellow;
+
+}
+
+.footer__nav{
+    list-style: none;
+}
+.footer__nav__item{
+    color: #AAAAAA;
+    font-size: 1.2rem;
+}
+.footer__nav__item:hover{
+    color: gray;
+}
+.footer__nav__item pt-3{
+    text-align: center;
+}
+.footer__social__icon{
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 40px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer__social__icon i{
+    color: white;
+    font-size: 2rem;
+}
+
+#item_field{
+    width: 200px;
+    height: 200px;
+}
+
+#add_btn{
+    background-color: tomato;
+}
+#section_field{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.div_item{
+    margin: 5% 2%;
+}
+.tovar{
+    background-color:white;
+}
+button{
+    background: red;
+}
+.uncvisible{
+    display: none;
+}
+
+.visible{
+    display: block;
+    background-color: wheat;
+    width: 300px;
+    height: 300px;
+}
+#cart{
+    position: fixed;
+    right: 5%;
+    top: 60%;
+}
+
+.countries{
+    color: black;
+}

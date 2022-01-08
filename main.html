@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+<header class="container-fluid header position-relative ">
+    <nav class="header_nav  py-md-4 align-items-center d-flex justify-content-around">
+        <a class="nav__home" href="index.html">
+            <img src="steelLogo.JPG" class="d-inline-block"></a>
+        <a class="nav__link  text-decoration-none" href="главнаяEN.html">ЗНИЖКИ</a>
+        <a class="nav__link  text-decoration-none" href="new collection.html">КЛІЄНТИ</a>
+        <a class="nav__link  text-decoration-none" href="looks.html">КОНТАКТИ</a>
+        <a class="nav__link  text-decoration-none" href="looks.html">НАША ПРОДУКЦІЯ</a>
+        <a class="nav__link  text-decoration-none" href="#">0664875775</a>
+        <a class="nav__link  text-decoration-none" href="#">0664875775</a>
+        <div class="header__nav__regLog">
+            <button type="button" id="registration"><i class="fas fa-user"></i></button>
+            <button type="button" id="cartId"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+    </nav>
+</header>
+<div class="top__notification ">
+    <p class="py-1">ЗАРЕЄСТРУЙСЯ ТА ОТРИМУЙ ЗНИЖКУ 10%</p>
+</div>
+
+<!-- =====================================================================ITEMS===================================================================  -->
+
+<section id="section_field">
+    <img src = "photo1641670847.jpeg">
+  
+</section>
+<!-- =====================================================================ITEMS===================================================================  -->
+
+<!-- ===========================================REGISTRATION FORM================================================================= -->
+
+<form action="" id="form" class="display_none">
+    <label for="user-name">Логін</label>
+    <input type="text" name="user-name" id="user-name"  placeholder="Введіть логін">
+
+    <label for="password">Пароль</label>
+    <input type="password" name="password" id="password" placeholder="Введіть пароль">
+
+    <label for="password">Пароль</label>
+    <input type="password" name="password" id="password_one_more_time" placeholder="Повторіть пароль">
+
+    <label for="user-email">E-mail</label>
+      <input type="text" name="user-email" id="user-email" placeholder="Введіть E-mail">
+
+    <button type="button" id="accept_registration"> ЗАРЕЄСТРУВАТИСЯ </button>
+</form>
+
+<!-- ===========================================REGISTRATION FORM================================================================= -->
+
+<!-- ===============================================================greeting DIV===============================================================  -->
+
+<div class="display_none" id="greeting">
+
+</div>
+<!-- ===============================================================greeting DIV===============================================================  -->
+
+
+
+<!-- =================================FILTER FIELD==================================================================================== -->
+<aside class="filter">
+    <div class="filter_field">
+        <input type="number" id="min_value" placeholder="Від">
+        <input type="number" id="max_value" placeholder="До">
+        <button type="button" id="filter_btn">Фильтр</button>
+    </div>
+</aside>
+<!-- =================================FILTER FIELD==================================================================================== -->
+
+
+<footer>
+    <ul class="footer__nav py-5 d-flex flex-row justify-content-around align-items-baseline">
+        <div class="footer__nav__aboutUs">
+            <li><a class="text-decoration-none footer__nav__item" href="about.html">ПРО НАС</a></li>
+            <li><a class="text-decoration-none footer__nav__item" href="shipping.html">ОПЛАТА ТА ДОСТАВКА</a></li>
+            <!-- <li><a class="text-decoration-none footer__nav__item" href="#">ГАРАНТІЯ</a></li>-->
+
+        </div>
+        <div class="footer__nav__whyWe">
+            <li><a class="text-decoration-none footer__nav__item" href="#">ФОТО ГАЛЕРЕЯ</a></li>
+            <li><a class="text-decoration-none footer__nav__item" href="WHY.html">ЧОМУ МИ</a></li>
+        </div>
+        <div class="footer__nav__contacts">
+            <li class="footer__nav__item pt-3 footer__nav__item" href="#">КОНТАКТИ</li>
+            <li><a class="text-decoration-none footer__nav__item" href="#">088958473</a></li>
+            <li><a class="text-decoration-none footer__nav__item" href="#">066477867</a></li>
+        </div>
+        <div class="footer__nav__textUS">
+            <li class="footer__nav__item pt-3"><a>НАПИШІТЬ НАМ:</a></li>
+            <div class="footer__social mt-3 text-right-right d-flex justify-content-around">
+                <a class="footer__social__icon position-relative" href="https://www.instagram.com/suppressors.steel/"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a class="footer__social__icon position-relative" href="https://www.facebook.com/silentsteell/"><i
+                        class="fab fa-telegram-plane"></i></a>
+            </div>
+        </div></div>
+    </ul>
+    <div class="footer__social text-center">
+        <a class="footer__social__icon position-relative" href="https://www.instagram.com/suppressors.steel/"><i class="fab fa-instagram position-absolute"></i></a>
+        <a class="footer__social__icon position-relative" href="https://www.facebook.com/silentsteell/"><i class="fab fa-facebook-f position-absolute"></i></a>
+        <a class="footer__social__icon position-relative" href="https://www.youtube.com/channel/UC8p-4wuPbJgk0kj_JX4oJpg?view_as=subscriber"><i class="fab fa-youtube position-absolute"></i></a></div>
+    </div>
+    <p class="text-center text-light py-3">STEEL © 2022</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="bootstrap.js"></script>
+<script src="eshop.js"></script>
+<script src="items.json"></script>
+</body>
+</html>

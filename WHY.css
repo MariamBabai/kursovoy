@@ -1,0 +1,204 @@
+header, footer{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+
+.nav__link{
+    margin-left: 30px;
+    color: white;
+    text-align: justify;
+    display: inline-block;
+    font-size: 1.2rem;
+
+}
+.nav__link:hover{
+    color: white;
+    cursor: pointer;
+}
+.nav__home{
+    /*    left: 0;
+        position: absolute;*/
+}
+.top__notification{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.footer__nav{
+    list-style: none;
+}
+.footer__nav__item{
+    color: #AAAAAA;
+    font-size: 1.2rem;
+}
+.footer__nav__item:hover{
+    color: gray;
+}
+.footer__nav__item pt-3{
+    text-align: center;
+}
+.footer__social__icon{
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 40px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer__social__icon i{
+    color: white;
+    font-size: 2rem;
+}
+p{
+    color: black;
+}
+h2{
+    text-align: center;
+    margin: 35%;
+}
+article {
+    background-color: yellow;
+}
+
+article{
+
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#item_field{
+    width: 200px;
+    height: 200px;
+}
+
+
+#add_btn{
+    background-color: tomato;
+}
+#section_field{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.div_item{
+    margin: 5% 2%;
+}
+.tovar{
+    background-color:#0b2e13 ;
+}
+button{
+    background: red;
+}
+.uncvisible{
+    display: none;
+}
+
+.visible{
+    display: block;
+    background-color: wheat;
+    width: 300px;
+    height: 300px;
+}
+#cart{
+    position: fixed;
+    right: 5%;
+    top: 60%;
+}
+
+.registration_form{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 42%;
+    height: 85%;
+    top: 5%;
+    left:30%;
+    background-color: white;
+    border-radius: 2%;
+    font-weight: bold;
+
+}
+
+.registration_form > input{
+    margin: 0 10px;
+    height: 50px;
+    width: 80%;
+    align-self: center;
+
+}
+.registration_form > label{
+    margin-top: 26px;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.registration_form > button{
+    margin-top: 30px;
+    width: 40%;
+    height: 10%;
+    align-self: center;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+#user-name, #password, #password_one_more_time, #user-email{
+    border-radius: 10px;
+}
+.accepted{
+    border:2px solid green;
+}
+
+.non-accepted{
+    border:2px solid red;
+}
+.display_none{
+    display: none;
+}
+
+.greeting_div{
+    display: block;
+    position: fixed;
+    width: 42%;
+    height: 50%;
+    top: 10%;
+    left:30%;
+    background-color: rgb(156,162,165);
+    border-radius: 2%;
+}
+
+
+.add_Item_btn{
+    background-color: greenyellow;
+}
+.checkout{
+    background-color: lightgreen;
+    /* border: 2px solid lightgreen;
+    border-radius: 25px; */
+}
+#items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.greetings{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 42%;
+    height: 80%;
+    top: 5%;
+    left:30%;
+    background-color: white;
+    border-radius: 2%;
+    color: black;
+    font-weight: bold;
+}
